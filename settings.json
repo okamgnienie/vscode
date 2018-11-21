@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "editor.smoothScrolling": true,
+}
