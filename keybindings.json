@@ -1,0 +1,82 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+[",
+        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+]",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+.",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "left",
+        "command": "undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "right",
+        "command": "redo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+x p",
+        "command": "editor.action.webvieweditor.selectAll",
+        "when": "!editorFocus && !inputFocus && activeEditor == 'workbench.editor.htmlPreviewPart'"
+    },
+    {
+        "key": "alt+s",
+        "command": "expand_region",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+s",
+        "command": "undo_expand_region",
+        "when": "editorTextFocus && editorHasSelection"
+    },
+    {
+        "key": "alt+enter r",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+n",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+p",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "editorScroll",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "revealCursor": true,
+            "value": 6
+        }
+    },
+    {
+        "key": "alt+v",
+        "command": "editorScroll",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "revealCursor": true,
+            "value": 6
+        }
+    }
+]
