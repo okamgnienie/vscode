@@ -5,7 +5,6 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "files.trimTrailingWhitespace": true,
     "editor.smoothScrolling": true,
-    "editor.formatOnType": true,
     "html.format.wrapAttributes": "force-aligned",
     "javascript.format.insertSpaceAfterCommaDelimiter": true,
     "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
